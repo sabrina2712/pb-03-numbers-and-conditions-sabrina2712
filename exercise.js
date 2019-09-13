@@ -79,3 +79,87 @@ const newString = "Py" + givenString;
 console.log(newString);
 
 console.log(givenString);
+
+// Prob. 5
+
+const oneValue = 21;
+const anotherValue = 33;
+
+const sum = oneValue + anotherValue;
+
+if (sum > 50 && sum < 80) {
+  console.log(65);
+} else console.log(80);
+
+// prob 6
+
+const oneNumber = 2;
+const anotherNumber = 6;
+
+const sum2 = oneNumber + anotherNumber;
+
+const sub = oneNumber - anotherNumber;
+
+if (sum2 == 8 || sub == 8) console.log(true);
+
+// prob. 7
+
+const integer1 = 7;
+const integer2 = 8;
+
+const sum3 = integer1 + integer2;
+
+if (integer1 == 15 || integer2 == 15 || sum3 == 15);
+console.log(true);
+
+// Prob 8
+
+const integer3 = 21;
+const integer4 = 5;
+
+const multiInteger3 = integer3 % 7 == 0;
+const multiInteger4 = integer4 % 7 == 0;
+
+if (multiInteger3 || multiInteger4) console.log(true);
+
+// prob. 9
+
+const integer5 = 5;
+const integer6 = 5;
+
+const sum4 = integer5 + integer6;
+
+console.log(sum4);
+
+if (integer5 == integer6) console.log(sum4 * 3);
+
+// prob 10
+
+const specifiedNumber = 33;
+const givenNumber = 19;
+
+const sub3 = specifiedNumber - givenNumber;
+
+console.log(sub3);
+
+if (sub3 > specifiedNumber) console.log(sub3 * 2);
+else console.log(sub3);
+
+/**
+ * 
+ // prob. 11
+
+const aNumber = 579;
+
+if (aNumber % 2 === 0) console.log(even);
+if (aNumber % 2 !== 0) console.log(odd);
+*/
+
+// Porb 12
+
+const anyNumber = 645;
+
+if (anyNumber % 3 === 0) console.log("Fizz");
+if (anyNumber % 5 === 0) console.log("Buzz");
+if (anyNumber % 3 === 0 && anyNumber % 5 === 0) console.log("FizzBuzz");
+else console.log(anyNumber);
