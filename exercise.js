@@ -145,15 +145,12 @@ console.log(sub3);
 if (sub3 > specifiedNumber) console.log(sub3 * 2);
 else console.log(sub3);
 
-/**
- * 
- // prob. 11
+// prob. 11
 
 const aNumber = 579;
 
-if (aNumber % 2 === 0) console.log(even);
-if (aNumber % 2 !== 0) console.log(odd);
-*/
+if (aNumber % 2 === 0) console.log("even");
+if (aNumber % 2 !== 0) console.log("odd");
 
 // Porb 12
 
