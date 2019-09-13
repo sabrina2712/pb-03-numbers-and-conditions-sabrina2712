@@ -1,3 +1,6 @@
+/** 
+// Numbers
+
 const a = "true";
 const b = "false";
 
@@ -35,3 +38,44 @@ console.log(p == q && q == r && r == p);
 console.log(p % r == q % r);
 console.log(r + p > q - r);
 console.log(r + p >= q - r);
+
+*/
+
+// Conditions
+
+// prob.1
+const anInteger = 71;
+const anotherInteger = 83;
+
+if (anInteger >= 50 && anInteger <= 99) console.log(true);
+if (anotherInteger >= 50 && anInteger <= 99) console.log(true);
+
+// Prob.2
+
+const firstInteger = 71;
+const secondInteger = 55;
+const thirdInteger = 90;
+
+if (firstInteger >= 50 || firstInteger <= 99) console.log(true);
+if (secondInteger >= 50 || secondInteger <= 99) console.log(true);
+if (thirdInteger >= 50 || thirdInteger <= 99) console.log(true);
+
+// prob.3
+
+const a = 13;
+const b = 9;
+const c = 21;
+
+const highestValue = Math.max(a, b, c);
+
+console.log(highestValue);
+
+// prob.4
+
+const givenString = "Python";
+
+const newString = "Py" + givenString;
+
+console.log(newString);
+
+console.log(givenString);
